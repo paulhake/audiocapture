@@ -1,0 +1,37 @@
+[
+        {
+            "question": "What are the key features of WatsonX governance discussed in the enablement session?",
+            "correct_answer": "The key features of WatsonX governance discussed include regulatory compliance accelerators, positioning for DeepSeek, new features for AWS SageMaker integration, enhancements in risk and compliance management, and updates on model management capabilities on different cloud platforms.",
+            "correct_answer_document_ids": [
+                "xgove_team_call.txt"
+            ]
+        },
+        {
+            "question": "How does IBM's partnership with Credo AI enhance WatsonX governance?",
+            "correct_answer": "Through the partnership with Credo AI, WatsonX governance provides regulatory content that helps organizations comply with AI regulations. It offers compliance libraries that align with AI use cases, allowing organizations to capture evidence, document processes, and assess regulatory compliance efficiently.",
+            "correct_answer_document_ids": [
+                "text-E85117AB1E71-1.txt"
+            ]
+        },
+        {
+            "question": "What deployment options are available for WatsonX governance?",
+            "correct_answer": "WatsonX governance is available as both software and SaaS. The software can be deployed on-premise or through a 'bring your own license' model. The SaaS offering includes model management on IBM Cloud and risk console on AWS, with expansion plans for different regions.",
+            "correct_answer_document_ids": [
+                "xgove_team_call.txt"
+            ]
+        },
+        {
+            "question": "What were the major sales tactics planned for WatsonX governance in 2025?",
+            "correct_answer": "The sales tactics include engaging with enterprise risk and compliance offices, launching a global campaign with IBM Consulting, targeting specific geographies such as APAC and EMEA, and positioning WatsonX governance alongside other IBM AI offerings to drive adoption.",
+            "correct_answer_document_ids": [
+                "xgove_team_call.txt"
+            ]
+        },
+        {
+            "question": "How does the compliance assessment process work within WatsonX governance?",
+            "correct_answer": "The compliance assessment process involves organizations using a compliance library to align with AI use cases, capturing evidence such as documentation and metrics, working with compliance officers to determine compliance status, and continuously updating regulatory obligations based on external frameworks like the EU AI Act and NIST AI RMF.",
+            "correct_answer_document_ids": [
+                "text-E85117AB1E71-1.txt"
+            ]
+        }
+]

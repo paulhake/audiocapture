@@ -1,0 +1,434 @@
+I'm like.
+I was like, where is all the clapping?
+Where is the energy?
+How's it going?
+Okay, we're gonna try once more.
+I really do have a lot of stuff
+to talk about, but how's it going?
+Okay, just once more.
+Just energy.
+How's it going? Thank you. Thank you.
+Really, really, really, really excited to
+be here, especially since there's an
+atmospheric river that's going through California.
+So this is great weather.
+So I'm really, really.
+It is awesome to be here.
+This is our fourth rack.
+We did one in San Francisco in the end of June.
+We did one in New York and then we did one in London.
+They were all tremendously successful.
+You're going to get the benefit of the best
+of the best because you've gotten better at it.
+Or maybe you can tell us that we are getting worse at
+it, but I think you're getting much, much better at it.
+I just want to get a sense on what is
+this audience like, how many people here write code.
+All right, now keep your hands up.
+Keep your hands up.
+I need to keep you awake.
+What percentage of you actually
+have written a genai app?
+So small percentage. That's cool. Okay.
+And the rest of you are generally
+in it, but very interested in Genai.
+Is that a good way to put it? All right, great.
+So we actually have a bunch between Devora and myself.
+We have a lot of awesome content.
+So let me get started.
+This is how we think about the world.
+Okay, one other question.
+How many people know about data stacks?
+All right, that's good. Have to room.
+How many people actually know what Apache Cassandra is?
+It's the same half.
+Okay, that's awesome.
+How many people have used a product called Netflix?
+Great.
+So how many people have used product called Spotify?
+All the recommendations that you get in
+Spotify and Netflix is powered by this
+awesome Apache open source database called Cassandra.
+It is the most scalable NoSQL database in the universe.
+It's not just on this planet. It's the universe.
+It like, it, it just rocks. Right?
+And so we helped build that in
+2010 and it's been hugely successful.
+It actually was a project that came out of
+Facebook when it used to be called Facebook.
+So why does a database company like ours that does no
+SQL actually get the right to talk to you about AI?
+It's because of this slide.
+Because there's absolutely no AI without data.
+There's no AI without unstructured data, and there's
+absolutely no AI without unstructured data at scale.
+Unstructured data at Scale is what
+we do for a business, right?
+Take some of the largest databases in the
+world that are not transactional, that are not
+SQL based, and they actually will probably be
+running Apache Cassandra underneath it.
+So it is our privilege to actually get started
+on this journey and be able to provide you
+what we think are two parts of it, right?
+We'll always give you the data modernization pieces
+on databases, but we also want to talk.
+Most of our talk today is going to be about
+AI passes, what can we do to help you build
+better applications and how to think about it.
+And we'll give you the IT perspective
+and we'll give you the developer perspective.
+So let me start by saying this.
+This is my fifth wave, right?
+I was part of client server, was on the web, so
+been in the valley for a while, was part of the
+web wave, mobile was there, cloud was there, and now Genai.
+Lots of similarities of GenAI to what I
+would say was the mobile world, right?
+The reason I say that is because I think we're
+in what I believe is the Angry Bird part, right?
+You remember Angry Birds on your
+iPhone a long, long time ago.
+That's the phase of Genai that we're in.
+So we're going to get better and better and better at
+it and apps are going to get much more sophisticated.
+But we are still in the early days of it, when mobile
+first came out and even when the web first came out before
+that, we used to just have a system of records.
+It used to be only system of records.
+And guess what?
+When the web started coming out, we, we
+came up with what we call the System
+of engagement and that became something very standard.
+That's the chart on the left.
+People started using bpm, they were doing
+a lot of workflow and they started
+building applications that actually were called System
+of Record and System of Engagement.
+Guess what AI is going to do?
+It's going to completely destroy that paradigm.
+Business processes are going to get replaced by agents.
+We're here to talk about agentic frameworks
+because that's how it makes a difference.
+And we'll show you how we can do it visually.
+And this is not just simple conversational agents.
+These are, you know, agents that can take actions
+and talk to each other to actually build business
+processes without you can choose to have humans in
+there or not have humans in there.
+So we absolutely believe that the way you're going
+to get, you're going to get past business processes
+through agents, because agents are going to destroy business
+processes over a period of time.
+This is not about Replacing human beings.
+This is not about AI versus people.
+This is people with AI versus people with no AI. Right?
+That's what this is about.
+And so this system of automation I like to call
+a system of intelligent automation is coming to you.
+All of those in the audience that think from an
+IT point of view, this is coming to you, it
+is going to disrupt the world you live in.
+I've been creating technology for
+a long, long, long time.
+And we used to.
+Actually, I'll just give you a, I'll give
+you a really simple perspective for those of
+you that have implemented integration systems.
+A large portion of integration systems
+is actually about transforming things.
+And you usually needed a person to do it.
+Agents are now doing 90% of that. Right?
+So this is coming to you in
+your world sooner than you think.
+And what is interesting, I've just been here
+now for 30, 30 plus hours in Sydney.
+What is interesting, it used to be in the US the
+technologies would start in the US, Europe would be about 9
+to 12 months behind and then Asia would be like 18
+months behind the US that is not happening.
+I've gone and seen some of the companies
+you actually work for and I'm blown away
+how far ahead the Australians are in actually
+going off and implementing this stuff.
+So I think, I think you guys are actually
+getting ahead of the curve, which is awesome.
+But please remember this, the system of
+automation is coming to your world.
+This is my personal passion.
+I love to build products that developers love that
+change the trajectory of the enterprises they work for.
+This is what I land up getting them doing.
+This is what we would call a product business.
+This has been core to everything that we've ever done,
+or I've ever done in the last 30 plus years.
+This is what we do at DataStax.
+We want to make sure that you
+can build genai apps that are 10x.
+We make it 10x easier for developers.
+We want you to build these AI apps that have
+upward of 95% accuracy and obviously which have unlimited scale.
+It is a new muscle for us.
+We've always been in the east of use business
+with the developer business and in the scale business.
+Going and focusing on relevancy has been something
+that we are just getting used to, but
+we are kicking ass at it.
+So this is my favorite slide for the
+entire presentation and the reason I like this
+is because this is our customer slide.
+These are our customers in all industries worldwide.
+When in January, the year started, we called 2024
+the year of production AI and everybody laughed at
+us and said, are you Kidding me.
+There's going to be trough of disillusionment
+and you know it's not real.
+Guess what?
+Nearly all the companies here, nearly all the companies here
+have done one or two or five or 10 GenAI
+projects and they have implemented them internally.
+They may not have implemented them externally
+because they actually have external forces like
+regulation that they have to worry about.
+But this is happening in 2024, right?
+These are very large companies that
+are going off and doing it.
+We're engaged very closely with Singapore Airlines.
+They are absolutely, in a very sophisticated way
+protecting their brand, yet delivering some awesome, not
+just conversational chatbots, but actionable chatbots.
+So what does that mean from our strategy point of view?
+How do we like to serve you as
+developers and the enterprises that you work for?
+We think our world comes in
+two parts, surviving and thriving.
+It's really simple, right?
+Surviving is about modernizing your data estate and thriving
+is about going off and building things on AI.
+I'm going to spend a couple
+of minutes talking about that.
+So here's how we think
+about modernizing your data estate.
+For those of you that know anything
+about data stacks, we've been shipping a
+product called DSE for a long time.
+That's what people use to
+actually run their businesses.
+We've introduced a new product called DSC 6.9
+that has some great features and so a
+lot of our customers are using it.
+We've also in a self managed way
+created a product called Hyperconverged Databases.
+We call it HCD and HCD is based on Kubernetes.
+It actually has the latest version of Cassandra
+which is 5.0 as well as it actually
+optimizes compute and storage to make it cheaper.
+You can actually run this in the cloud as well.
+But obviously it is something that
+you will have to manage yourself.
+A large portion of our customers
+are moving to the right.
+Some of them actually continue to stay on the left.
+And for those that are using open source, Cassandra
+are going to our cloud database which is serverless
+and it's actually available in all three clouds and
+so that is actually working exceedingly well.
+The second thing is our DSE customers are
+moving to Astra and then obviously we have
+a lot of customers that are coming directly
+and using Astra independent of gen right.
+Remember we have vectorized our entire databases for
+self managed for Cassandra as well as Astra.
+So all of this is what we do on
+the left hand side what we call modernization.
+This is where.
+This is what we've been doing for quite some time and
+we are the leaders From a NoSQL point of view, here
+is what Devore is going to come and talk to you.
+From an AI Paas point of view.
+We think about three things.
+I talked about it earlier.
+We talked about developers.
+It's about agility.
+You can talk about ease of development.
+The second one is relevance.
+We've actually taken some really good things
+that AWS has done with OpenSearch and
+we are making it even better. Right?
+So we're making it serverless and
+a bunch of different things.
+And then we actually introduced something called Graph
+Rag and Devora has been a big part
+of it in making it happen.
+And we also have.
+We've created this product called JVector, which is
+actually Cassandra Independent, but actually helps you vectorize
+every amount of data and actually do it.
+You can simultaneously read as well as write.
+So this is what encompasses our point of view.
+We want to do things at scale so
+you never have to worry about it.
+We want to make sure that you do it with agility.
+And obviously if you do not have 95%
+relevancy, your apps are going to hallucinate and
+they will not work really well.
+Above everything else that we've done, we
+actually do something for open source.
+We also take from open source and
+make it better and give it back.
+We are working with this company called Nvidia.
+Some of you have may have heard of them.
+They're just based in Santa Clara,
+five minutes away from us.
+And I happen to getting to know their CEO
+Jensen, and we have a great partnership with them
+where we have actually taken their software.
+You think of Nvidia, you think
+about them as being GPUs.
+They actually have something called the Nemo platform.
+Go and check it out.
+We have all their bits and it is completely integrated
+into our AI PaaS, our AI platform as a service.
+So Davor AIis actually going to show you that and talk
+to you a little bit about all of these components.
+So all these components on the bottom, for example,
+they have something called Nim Blueprints that makes it
+really, really easy for you to build things.
+They have awesome things called guardrails, by the
+way, I was with a very large bank,
+I should say the largest bank.
+We were having this conversation today, actually
+this morning, and the conversation was, yeah,
+I think the hyperscaler tools are good,
+but Nvidia tools are really, really awesome.
+And so we're actually, we've hit the
+partnership at exactly the right time.
+And the fact that we'll make this available is awesome.
+All right, so what does this mean for enterprises?
+Right?
+We have some great tech here, we
+have some great tech here, right?
+But what does this mean for enterprises?
+We have engaged with about 350
+different customers worldwide in all different
+geographies and all different industries.
+And we find that customers have this continuum that
+they're going through from a gen AI perspective, right?
+And we think about our customers falling into
+the delegate category, the accelerate category, or the
+reinvent or the invent category, right?
+And so what does that mean?
+The simple answer for your superiors is to say
+this is going to make it a lot.
+We are going to get really, really efficient.
+So let's cut off 30% of our cost.
+That's okay.
+Unfortunately, that never works over a period of time.
+That never ever works. Right?
+Great start.
+Because you're not going to actually build a company by
+cutting, you're going to have to invest it forward.
+So we find a lot of our customers
+start in the delegate category, but then they
+realize very quickly that it's about accelerating.
+It's not about getting rid of the people,
+it's about making the people more effective.
+So the key word is going from efficient to effective.
+A large number of our customers actually fall right in
+the middle in what we call the accelerate category.
+Where there's a large bank called JP
+Morgan, they are in that category.
+They are doing things like Let me give
+ChatGPT to every person, every employee because I
+really want them to be much more productive,
+much more effective in making it happen.
+So it's really interesting to see.
+Obviously there are medium sized companies that do that
+a lot, but it's really interesting to see how
+companies are going off and not just talking about
+GitHub, Copilot, but how else can they actually use
+AI agents, AI agents to actually become far more
+effective, not just efficient.
+And then the third category is invented, right?
+The third category is invent.
+And this is where very few, this is
+the air is thin where they live, right?
+This is where very few companies survive because they
+are going to get, not just they're not going
+to get 30% more effective or 30% more efficient,
+they're going to go off and become 33,000 times
+better than they've ever done.
+And that's the category that the little companies like
+Uber, little companies like Netflix are born in, where
+they actually go in and redo everything from scratch.
+It's super interesting to see
+what's happening in the Valley.
+They are reinventing the entire SaaS space.
+Everything that you see from a SaaS point of view,
+from Salesforce or any other app that the companies you
+work for use are in an absolute process to get
+disrupted because they're not going to be built the way
+they were built 20 years ago. Right?
+You as Gen AI developers, you know that as well.
+So what does that, all this mean?
+What this means is that 2025 is going
+to be the year of transformational AI.
+It's going to be transformative because we are going to get
+out of the Angry Birds part and we are going to
+get in doing some really, really, really cool stuff.
+All these customers who've played around with it, the
+coolness factor is done, are now going to start
+getting super interested in, in making awesome, awesome apps.
+And they are not going to be apps
+that you thought you would need, right?
+These are things you will
+reimagine how you actually work.
+You'll reimagine how you actually engage
+with customers to make it happen.
+So we're pumped up.
+We talked about 2024, about being productive AI.
+We think 2025 is about transformative AI and
+we are actually seeing it happen now.
+So it's actually going to speed up, not slow down.
+So we fully think that this is going
+to make a major, major difference next year.
+And you're going to find that if you do
+this event next year at this time, number one,
+there's going to be twice the number of people
+or three times the number of people.
+And about 80% will say they've actually built a gen AI app
+or have been part of a team that has delivered one.
+That's what's going to happen in 12 months.
+This wave that we're in with GenAI is
+going to go faster than anything we've ever
+seen before, faster than anything we've ever seen
+before, independent of whether you're regulated or not.
+So we are pumped up about this.
+It is awesome to have Devore come and actually
+talk to you a little bit about the stack.
+He's also going to tirelessly first actually walk
+you through what we call AI paths. He'll present.
+Then he's going to drink some water.
+I may actually go and get him a
+glass of wine and so that'll help him.
+And then he's going to actually give
+you a demo because there's nothing, there's
+absolutely nothing like actually you watching and
+seeing what the product actually does.
+And I have one suggestion for all of you.
+If you want to participate, if you want to participate
+in this thing called generative AI, lead with code, deliver
+a project, because that is the best, best thing you
+can do, whether you're a developer or whether you have
+developers around you, this is not the time to have
+a lot of conversations, go and experiment and go off
+and actually deliver a project.
+That is what we have.
+We I get a chance to see hundreds of customers
+and the ones that are becoming successful are the ones
+that are actually going off and delivering something.
+Even if they scrap it away, they
+always go and deliver a project.
+And that's how you learn. Thank you.
+And Davor over to you.
+
